@@ -1,0 +1,211 @@
+body{
+    font-family: "Jost", sans-serif;
+    margin: 0;
+    padding:0;
+    background: linear-gradient(to top, #333,#333,#000447 ,  #000447);
+    color: #000000b7  ;
+}
+header{
+    background: linear-gradient(to right, #09019e, #000447 );
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+header h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+header .rr{
+    font-size: 1.2rem;
+    margin-top: 10px; 
+}
+.rob{
+    margin: 0 ;
+}
+nav{
+    background:  #000447 ;
+    padding: 10px 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+nav li{
+    margin: 0 20px ;
+}
+nav a{
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin: 0;
+    text-decoration: none;
+    transition: 0.2s;
+
+}
+nav a:hover{
+    background-color:  #ffffff;
+    color:  #000447;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.content .section {
+    flex: 1;
+    padding: 10px;
+}
+
+.section h3 {
+    margin-bottom: 15px;
+}
+
+.section a {
+    color: #a9a9a9;
+    text-decoration: none;
+}
+
+.section a:hover {
+    color: #f2f2f2;
+}
+
+#final {
+    background-color: #222;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
+.titulo {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #09019e, #000447 );
+    border-radius: 5px;
+}
+.all{
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+    width: 1200px;
+}
+.all h2 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 12px;
+    margin: 10px 20px;
+    background: linear-gradient(to right, #09019e, #000447 );
+    border-radius: 5px;
+}
+.slider-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('Images/bg-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider-images{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    box-shadow: #09019e;
+  }
+  .slider-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  .slider-img{
+    width: 110px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .slider-images .slider-img:first-child, .slider-images .slider-img:last-child{
+    height: 480px;
+  }
+  .slider-images .slider-img:nth-child(2), .slider-images .slider-img:nth-child(6){
+    height: 560px;
+  }
+  .slider-images .slider-img:nth-child(3), .slider-images .slider-img:nth-child(4), .slider-images .slider-img:nth-child(5){
+    height: 665px;
+  }
+ .all h1{
+    font-family: "Jost", sans-serif;
+
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    transform: rotate(270deg);
+    transition: 0.5s ease;
+  }
+  .details{
+    position: absolute;
+    bottom: 43px;
+    left: 43px;
+  }
+  .details h2{
+    font-family: "Jost", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 44px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s ;
+    display: none;
+  }
+  .details p{
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 33px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s ;
+    display: none;
+  }
+  .slider-img:hover{
+    width: 466px !important;
+    height: 450px !important;
+  }
+  .slider-img:hover h1{
+     display: none;
+  }
+  .slider-img:hover .details p, .slider-img:hover .details h2{
+    display: block;
+  }
+  .content h3{
+    background:  #09019e  ;
+    color: #ffffff  ;
+    display: inline-flex;
+    padding: 5px 10px;
+    margin: 5px 5px;
+    margin-top: 15px;
+    border-radius: 20px;
+}

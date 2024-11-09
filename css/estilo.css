@@ -1,0 +1,187 @@
+body{
+    font-family: "Jost", sans-serif;
+    margin: 0;
+    padding:0;
+    background: linear-gradient(to top, #333,#333,#000447 ,  #000447);
+    color: #000000b7  ;
+}
+header{
+    background: linear-gradient(to right, #09019e, #000447 );
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+header h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+header .rr{
+    font-size: 1.2rem;
+    margin-top: 10px; 
+}
+.rob{
+    margin: 0 ;
+}
+nav{
+    background:  #000447 ;
+    padding: 10px 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+nav li{
+    margin: 0 20px ;
+}
+nav a{
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin: 0;
+    text-decoration: none;
+    transition: 0.2s;
+
+}
+nav a:hover{
+    background-color:  #ffffff;
+    color:  #000447;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.content .section {
+    flex: 1;
+    padding: 10px;
+}
+
+.section h3 {
+    margin-bottom: 15px;
+}
+
+.section a {
+    color: #a9a9a9;
+    text-decoration: none;
+}
+
+.section a:hover {
+    color: #f2f2f2;
+}
+
+#final {
+    background-color: #222;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+
+.robo1  {
+    text-align: justify;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 900px;}
+.robo1 img{
+    margin: 5px auto;
+    display: block;
+    border-radius: 8px;
+}
+.robo1 h2 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 12px;
+    margin: 10px 20px;
+    background: linear-gradient(to right, #09019e, #000447 );
+    border-radius: 5px;
+}
+.robo2  {
+    text-align: justify;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 900px;
+
+}
+
+.robo2 h2 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 12px;
+    margin: 10px 20px;
+ background: linear-gradient(to right, #09019e, #000447 );
+    border-radius: 5px;
+}
+.sud{
+    color:  #07024d;
+    font-size: 0.9rem;
+    text-align: center;
+}
+h3{
+    color: #09019e  ;
+    display: inline-flex;
+    padding: 5px 10px;
+    margin: 5px 5px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.centrarV{
+  text-align: center;
+}
+.menu{
+    text-align: justify;
+    background-color: #c2bbbb;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 900px;
+transition: 0.5s;
+}
+.menu:hover{
+    background: rgb(255, 255, 255);
+    color: black;
+    padding: 30px;
+    
+}
+.menu h2{
+    color:#08002f ;
+    display: inline-flex;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 15px;
+}
+.menu:hover h2{
+    color:#00089f;
+    
+}
+.content h3{
+        background:  #09019e  ;
+        color: #ffffff  ;
+        display: inline-flex;
+        padding: 5px 10px;
+        margin: 5px 5px;
+        margin-top: 15px;
+        border-radius: 20px;
+}.robo3  {
+    color: #000447;
+    font-size: 20px;
+    text-align: justify;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 900px;}
